@@ -1,0 +1,172 @@
+/* ***********Estilos generales ********************************************/
+
+* {
+    margin:0px;
+    padding:0px;
+    
+}
+
+  mark{
+    background-color: rgba(236, 219, 186, 0.5);
+  }
+/* Encabezado */
+header{
+    background-image:   url("img/port.jpg") ;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    font-weight: 100%;
+    height: 500px;
+    padding-top: 5cm;
+}
+
+
+
+
+h1 {
+    font-size:300%;
+    font-weight: bold;
+    letter-spacing: 10px;
+    margin-left: 2%;
+    text-shadow: rgb(129, 179, 65) 15px 9px 9px;
+    text-transform: uppercase;
+    color: white;
+  }
+#header {
+    margin:auto;
+    width:100%;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:rgb(184, 243, 117);
+}
+
+/* Lista-navegador */
+nav{
+    position:sticky;
+    top:0;
+    width: 100%;
+    
+}
+
+
+
+ul{
+    list-style:none;
+    overflow: hidden;
+    border : 1px solid rgb(184, 243, 117);
+}
+.nav li a {
+    background-color: rgb(184, 243, 117);
+    color:rgb(15, 94, 14);
+    font-family: fantasy;
+   
+    text-decoration:none;
+    font-size: 50px;
+    padding:50px 80px;
+	display:block; 
+    float:left;
+	
+}
+
+
+
+   
+
+.nav li a:hover {
+    background-color:rgba(34, 139, 3, 0.829);
+}
+
+.li{
+    display: inline;
+}
+
+.texto{
+float: right;
+
+display: block;
+margin-top: 10%;
+width:35%;
+height: 1500px;
+font-family: 'Pacifico', cursive;
+font-size: 40px;
+color: rgb(223, 22, 22);
+
+}
+.am{
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;  
+    color: black;
+}
+.ham img{
+    width:50%;
+    height:600px;
+  
+}
+.ham2{
+width: 100%;
+height:700px;
+
+}
+
+.ham h2{
+    color:rgba(209, 64, 38, 0.922);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer{
+    position:sticky;
+    clear: both;
+    background-color:rgb(184, 243, 117);
+    color:rgb(21, 37, 8);
+    padding:1%;
+    clear:both;
+    margin-top: 20%; 
+    
+}
+footer a{
+    color:rgb(20, 39, 5);  
+}
+footer img{
+    width:5%;
+    height: 5%;
+    margin-left:20%;
+}
+.politicas{
+    margin-left:2%;
+}
+.redesSociales{
+    margin-left:15%;
+    
+}
+.fab{
+    font-size: 170%;
+    margin:1%;   
+}
+
+
+/* **************Pedidos botones******************************* */
+.boton1{
+background-color: rgb(69, 212, 3);
+font-size: 30px;
+padding: 2%;
+border-radius: 50px;
+
+}
+
+.tex{
+    font-size: 50px;
+    width: 20%;
+    height: 60px;
+    border-radius: 15px;
+   }
+.flecha{
+float: right;
+height: 110px;
+}
+
+/* *************productos****************** */
+.boton2{
+    background-color: rgb(37, 215, 221);
+font-size: 15px;
+padding: 2%;
+border-radius: 50px;
+
+}

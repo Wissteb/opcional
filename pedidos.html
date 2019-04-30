@@ -1,0 +1,129 @@
+<!-- -Nos solicitan el desarrollo de una web para Vegaburguer. Una hamburgeseria vegana 
+que nos solicitan una web en la que los empleados podrian introducir los pedidos de cada mesa .
+desarolla interfaz que permitira mediante botones hacer el pedidoy elegir la mesa .
+Ayuda : los pedidos de cada mesa se puedden acumular en unarray y el coste en una variable 
+Al pulsar cuenta_final mostrarar la cuenta +21%de Iva.
+
+Opcional para pascuas realizar el ejercicio con 8 mesas y css darle aspecto
+profecional. -->
+
+<!DOCTYPE html>
+<!-- wissal tebi  -->
+
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Vegaburguer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <h1 class="abast"> <mark> Vegaburguer </mark> </h1>
+
+    </header>
+
+    <nav>
+        <div id="header">
+            <ul class="nav">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="pedidos.html">PEDIDOS</a></li>
+
+            </ul>
+
+        </div>
+    </nav>
+
+    <br>
+    <input type="image" src="img/1.jpg" width="20%" />
+    <input type="image" src="img/2.png" width="20%" class="flecha" />
+
+    <form id="form1">
+        <input type="image" src="img/table.png" width="20%" />
+        <input type="image" src="img/table.png" width="20%" />
+        <input type="image" src="img/table.png" width="20%" />
+        <input type="image" src="img/table.png" width="20%" />
+        <input type="image" src="img/table.png" width="20%" />
+        <input type="image" src="img/table.png" width="20%" />
+        <input type="image" src="img/table.png" width="20%" />
+        <input type="image" src="img/table.png" width="20%" />
+        <br>
+         <br>
+         <h2>Productos</h2>
+<div class="pro1">
+<pre>            1. ColaVega                 2. Vegaburguer              3.  FantaVega             4. Hambuguesa Normal</pre>
+ <input type="button" onclick="pedirCola()" value=1.5 class="boton2">
+ <img src="img/burger-lentejas.jpg" alt="" width="7%"> 
+
+
+ <input type="button" onclick="pedirVega()" value=7 class="boton2">
+ <img src="img/burger-lentejas.jpg" alt="" width="7%"> 
+
+ <input type="button" onclick="pedirFanta()" value=1.6 class="boton2">
+ <img src="img/burger-lentejas.jpg" alt="" width="7%"> 
+ 
+
+ <input type="button" onclick="pedirNormal()" value=5 class="boton2"> 
+  <img src="img/burger-lentejas.jpg" alt="" width="7%"> 
+</div>
+
+
+</div>
+        <br>
+        <input type="text" id="mesa" class="tex" />
+        <br> <input type="text" id="pedido" class="tex" />
+        <input type="button" onclick="hacer_pedido()" value="hacer pedido " class="boton1">
+
+        <br> <input type="button" onclick="Cuenta_final()" value="cuenta final " class="boton1">
+
+
+    </form>
+
+    <select id="hamburguesa" onchange="selecionar();" name="producto">
+            <option value="7">Vegaburguer</option>
+            <option value="5">Hamburguesa Normal</option>
+            </select>
+
+            <select id="bebida" onchange="selecionar2();" name="producto">
+                    <option value="1.5">ColaVega</option>
+                    <option value="1.6">fantaVega</option>
+                    </select>
+        
+
+
+    <footer>
+        <p>
+            <span class="copiright">
+                &copy;Desarrollado por
+                Wissal Tebai</span>
+            <span class="politicas">
+                <a href="https://www.aepd.es/agencia/politica-privacidad-aviso-legal.html">Política de privacidad</a>
+                <a href="https://www.endesa.com/es/polit
+       
+                ica-de-cookies.html">Política de cookies</a>
+            </span>
+            <span class="logo"><img src="img/logoAbast.jpg"></span>
+            <span class="redesSociales">
+                Nuestras redes sociales:
+                <a href="https://twitter.com/?lang=es"><i class="fab fa-twitter"></i></a>
+                <a href="https://es-es.facebook.com/"><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-google-plus-g"></i></a></span>
+
+
+        </p>
+
+
+    </footer>
+</body>
+
+</html>
