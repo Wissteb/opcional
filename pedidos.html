@@ -44,61 +44,54 @@ profecional. -->
         </div>
     </nav>
 
-    <br>
-    <input type="image" src="img/1.jpg" width="20%" />
-    <input type="image" src="img/2.png" width="20%" class="flecha" />
 
-    <form id="form1">
-        <input type="image" src="img/table.png" width="20%" />
-        <input type="image" src="img/table.png" width="20%" />
-        <input type="image" src="img/table.png" width="20%" />
-        <input type="image" src="img/table.png" width="20%" />
-        <input type="image" src="img/table.png" width="20%" />
-        <input type="image" src="img/table.png" width="20%" />
-        <input type="image" src="img/table.png" width="20%" />
-        <input type="image" src="img/table.png" width="20%" />
-        <br>
-         <br>
-         <h2>Productos</h2>
-<div class="pro1">
-<pre>            1. ColaVega                 2. Vegaburguer              3.  FantaVega             4. Hambuguesa Normal</pre>
- <input type="button" onclick="pedirCola()" value=1.5 class="boton2">
- <img src="img/burger-lentejas.jpg" alt="" width="7%"> 
+    <h2>Bebidas</h2>
+    <pre>  ColaVega         FantaVega      </pre>
+    <img src="img/coca.png" alt="" width="6%">
+    <img src="img/fanta.jpg" alt="" width="11%">
 
 
- <input type="button" onclick="pedirVega()" value=7 class="boton2">
- <img src="img/burger-lentejas.jpg" alt="" width="7%"> 
+    <h2>Hamburguesas</h2> <br>
 
- <input type="button" onclick="pedirFanta()" value=1.6 class="boton2">
- <img src="img/burger-lentejas.jpg" alt="" width="7%"> 
- 
+    <pre>    Vegaburguer            Hambuguesa Normal</pre>
 
- <input type="button" onclick="pedirNormal()" value=5 class="boton2"> 
-  <img src="img/burger-lentejas.jpg" alt="" width="7%"> 
-</div>
+    <img src="img/burger-lentejas.jpg" alt="" width="11%">
+    <img src="img/mexicana.jpg" alt="" width="13%"> <br> <br>
 
 
-</div>
-        <br>
-        <input type="text" id="mesa" class="tex" />
-        <br> <input type="text" id="pedido" class="tex" />
-        <input type="button" onclick="hacer_pedido()" value="hacer pedido " class="boton1">
-
-        <br> <input type="button" onclick="Cuenta_final()" value="cuenta final " class="boton1">
 
 
-    </form>
+    <div>
 
-    <select id="hamburguesa" onchange="selecionar();" name="producto">
-            <option value="7">Vegaburguer</option>
-            <option value="5">Hamburguesa Normal</option>
-            </select>
+        <button type="submit" id="vega" onclick="seleccionar(0)"  value=7  class="boton1">Vegaburguer </button>
+        <button type="submit" id="normal" onclick="seleccionar(1)" value=5  class="boton1">Hamburguesa
+            normal</button><br> <br>
+        <button type="submit" id="Cola" onclick="seleccionar(2)" value=1  class="boton1">Colavega</button>
+        <button type="submit" id="fanta" onclick="seleccionar(3)" value=2 class="boton1">FantaVega</button><br> <br>
+<form action="uno">
+   Cantidad <br>
+    <input type="text" id="cant" />
 
-            <select id="bebida" onchange="selecionar2();" name="producto">
-                    <option value="1.5">ColaVega</option>
-                    <option value="1.6">fantaVega</option>
-                    </select>
-        
+    
+</form>
+
+        <select name="mesa" id="mesa">
+            <option value="1">MESA 1</option>
+            <option value="2">MESA 2</option>
+            <option value="3">MESA 3</option>
+            <option value="4">MESA 4</option>
+            <option value="5">MESA 5 </option>
+            <option value="6">MESA 6 </option>
+            <option value="7">MESA 7 </option>
+            <option value="8">MESA 8 </option>
+        </select>
+
+        <button type="submit" id="cuenta" onclick="cuenta()">Cuenta Final</button></td>
+
+    </div>
+
+
+
 
 
     <footer>
@@ -112,7 +105,7 @@ profecional. -->
        
                 ica-de-cookies.html">Política de cookies</a>
             </span>
-            <span class="logo"><img src="img/logoAbast.jpg"></span>
+          
             <span class="redesSociales">
                 Nuestras redes sociales:
                 <a href="https://twitter.com/?lang=es"><i class="fab fa-twitter"></i></a>

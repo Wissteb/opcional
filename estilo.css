@@ -66,8 +66,6 @@ ul{
 	
 }
 
-
-
    
 
 .nav li a:hover {
@@ -144,29 +142,44 @@ footer img{
 
 /* **************Pedidos botones******************************* */
 .boton1{
-background-color: rgb(69, 212, 3);
-font-size: 30px;
-padding: 2%;
+
+font-size: 20px;
 border-radius: 50px;
+width: 20%;
+height: 60px;
+background-color: rgb(202, 207, 223);
 
 }
 
+
+button:hover {
+    color: rgb(100, 223, 63) ;
+    box-shadow: 0 4px 16px rgba(74, 119, 0, 0.8);
+ 
+}
 .tex{
     font-size: 50px;
     width: 20%;
     height: 60px;
     border-radius: 15px;
    }
-.flecha{
-float: right;
-height: 110px;
-}
 
-/* *************productos****************** */
-.boton2{
-    background-color: rgb(37, 215, 221);
-font-size: 15px;
-padding: 2%;
-border-radius: 50px;
-
+   select {
+    height: 60px;
+    width: 270px;
+    font-weight: 400;
+    border-radius:30px;
 }
+   #cuenta {
+    /* border-radius: 20% 0% 20% 0%; */
+    background:rgba(34, 139, 3, 0.829);
+    color: rgb(200, 240, 231);
+    border-radius: 40px;
+    font-weight: bold;
+    width: 20%;
+    height: 60px;}
+    #cuenta:hover {
+        color: rgb(19, 20, 18) ;
+        box-shadow: 0 4px 16px rgba(74, 119, 0, 0.8);
+     
+    }
